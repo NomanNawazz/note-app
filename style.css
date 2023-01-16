@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    height: 100vh;
+}
+.notes{
+    background-color: rgb(240, 232, 232);
+    height: 30%;
+    width: 25%;
+}
+.tool{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    padding: 0.8rem;
+    background-color: rgb(68, 139, 139);
+}
+.notes button{
+    padding: 1em;
+}
+.notes textarea{
+    outline: none;
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 2rem;
+}
+.notes .main{
+    display: none;
+    height: 100%;
+    width: 100%;
+}
+.notes .hidden{
+    display: none;
+}
